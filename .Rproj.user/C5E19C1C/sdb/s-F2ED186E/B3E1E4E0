@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Package: covtpx\nTitle:  Estimation of Topic Models with sample covariate metadata\nVersion: 0.99.1\nAuthor: Kushal K Dey <kkdey@uchicago.edu>\nDepends: R (>= 2.10)\nImports: slam, SQUAREM, boot\nSuggests: MASS\nDescription:  Posterior maximization for topic models Grade of Membership models using an EM algorithm approach, that adjusts the clustering results for the sample covariate metadata. This accounts for batch effects in the application of the GoM model in analyzing the RNA-seq data and also accounts for habitat metadata in ecostructure modeling of species distributions.\nMaintainer: Kushal K Dey <kkdey@uchicago.edu>\nLicense: GPL-3\nURL: https://kkdey.github.io\n",
+    "created" : 1504633117405.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1889370198",
+    "id" : "B3E1E4E0",
+    "lastKnownWriteTime" : 1504633490,
+    "last_content_update" : 1504633490150,
+    "path" : "~/Documents/covtpx/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "dcf"
+}

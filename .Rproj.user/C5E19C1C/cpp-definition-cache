@@ -1,0 +1,599 @@
+[
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 16,
+                "name" : "la_dgemm(int, int, int, int, int, int, int, int, double *, double *, double *, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@la_dgemm"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 41,
+                "name" : "la_dsymm(int, int, int, int, int, int, int, double *, double *, double *, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@la_dsymm"
+            },
+            {
+                "column" : 5,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 67,
+                "name" : "la_dposv(int, int, double *, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@la_dposv"
+            },
+            {
+                "column" : 5,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 84,
+                "name" : "la_dgesv(int, int, double *, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@la_dgesv"
+            },
+            {
+                "column" : 5,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 103,
+                "name" : "la_dsysv(int, int, double *, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@la_dsysv"
+            },
+            {
+                "column" : 5,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 132,
+                "name" : "la_dpotrf(int, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@la_dpotrf"
+            },
+            {
+                "column" : 10,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 146,
+                "name" : "new_mat(int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@new_mat"
+            },
+            {
+                "column" : 10,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 161,
+                "name" : "new_mat_fromv(int, int, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@new_mat_fromv"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 175,
+                "name" : "new_imat(int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@new_imat"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 190,
+                "name" : "new_imat_fromv(int, int, int *)",
+                "parent_name" : "",
+                "usr" : "c:@F@new_imat_fromv"
+            },
+            {
+                "column" : 10,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 203,
+                "name" : "new_zero_mat(int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@new_zero_mat"
+            },
+            {
+                "column" : 10,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 216,
+                "name" : "new_val_mat(int, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@new_val_mat"
+            },
+            {
+                "column" : 10,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 228,
+                "name" : "new_id_mat(int)",
+                "parent_name" : "",
+                "usr" : "c:@F@new_id_mat"
+            },
+            {
+                "column" : 10,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 240,
+                "name" : "new_dup_mat(int, int, double **)",
+                "parent_name" : "",
+                "usr" : "c:@F@new_dup_mat"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 254,
+                "name" : "delete_mat(double **)",
+                "parent_name" : "",
+                "usr" : "c:@F@delete_mat"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 263,
+                "name" : "delete_imat(int **)",
+                "parent_name" : "",
+                "usr" : "c:@F@delete_imat"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 273,
+                "name" : "zero_mat(double **, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@zero_mat"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 279,
+                "name" : "id_mat(double **, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@id_mat"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 285,
+                "name" : "diag_mat(double **, double *, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@diag_mat"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 295,
+                "name" : "copy_mat(int, int, double **, double **)",
+                "parent_name" : "",
+                "usr" : "c:@F@copy_mat"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 307,
+                "name" : "print_mat(int, int, double **, int *)",
+                "parent_name" : "",
+                "usr" : "c:@F@print_mat"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 318,
+                "name" : "print_imat(int, int, int **, int *)",
+                "parent_name" : "",
+                "usr" : "c:@F@print_imat"
+            },
+            {
+                "column" : 9,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 336,
+                "name" : "new_dvec(int)",
+                "parent_name" : "",
+                "usr" : "c:@F@new_dvec"
+            },
+            {
+                "column" : 9,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 351,
+                "name" : "new_dseq(double, double, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@new_dseq"
+            },
+            {
+                "column" : 9,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 369,
+                "name" : "new_dzero(int)",
+                "parent_name" : "",
+                "usr" : "c:@F@new_dzero"
+            },
+            {
+                "column" : 9,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 382,
+                "name" : "new_dup_dvec(double *, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@new_dup_dvec"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 396,
+                "name" : "sum_dvec(double *, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@sum_dvec"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 412,
+                "name" : "zero_dvec(double *, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@zero_dvec"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 423,
+                "name" : "copy_dvec(double *, double *, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@copy_dvec"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 435,
+                "name" : "print_dvec(double *, int, int *)",
+                "parent_name" : "",
+                "usr" : "c:@F@print_dvec"
+            },
+            {
+                "column" : 9,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 443,
+                "name" : "drep(double, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@drep"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 451,
+                "name" : "normalize(double *, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@normalize"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 471,
+                "name" : "new_ivec(int)",
+                "parent_name" : "",
+                "usr" : "c:@F@new_ivec"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 486,
+                "name" : "new_iseq(int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@new_iseq"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 506,
+                "name" : "new_izero(int)",
+                "parent_name" : "",
+                "usr" : "c:@F@new_izero"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 519,
+                "name" : "new_dup_ivec(int *, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@new_dup_ivec"
+            },
+            {
+                "column" : 5,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 533,
+                "name" : "sum_ivec(int *, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@sum_ivec"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 549,
+                "name" : "zero_ivec(int *, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@zero_ivec"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 560,
+                "name" : "copy_ivec(int *, int *, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@copy_ivec"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 572,
+                "name" : "print_ivec(int *, int, int *)",
+                "parent_name" : "",
+                "usr" : "c:@F@print_ivec"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+                "kind" : 6,
+                "line" : 580,
+                "name" : "irep(int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@irep"
+            }
+        ],
+        "file" : "/Users/kushal/Documents/covtpx/src/latools.c",
+        "file_last_write" : 1452062509
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "/Users/kushal/Documents/covtpx/src/latools.h",
+        "file_last_write" : 1452062509
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/rhelp.c",
+                "kind" : 6,
+                "line" : 46,
+                "name" : "myprintf(int *, const char *, ...)",
+                "parent_name" : "",
+                "usr" : "c:@F@myprintf"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/rhelp.c",
+                "kind" : 6,
+                "line" : 70,
+                "name" : "error(const char *, ...)",
+                "parent_name" : "",
+                "usr" : "c:@F@error"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/rhelp.c",
+                "kind" : 6,
+                "line" : 95,
+                "name" : "warning(const char *, ...)",
+                "parent_name" : "",
+                "usr" : "c:@F@warning"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/rhelp.c",
+                "kind" : 6,
+                "line" : 120,
+                "name" : "myflush(int *)",
+                "parent_name" : "",
+                "usr" : "c:@F@myflush"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/kushal/Documents/covtpx/src/rhelp.c",
+                "kind" : 6,
+                "line" : 138,
+                "name" : "my_r_process_events(int)",
+                "parent_name" : "",
+                "usr" : "c:@F@my_r_process_events"
+            }
+        ],
+        "file" : "/Users/kushal/Documents/covtpx/src/rhelp.c",
+        "file_last_write" : 1452062509
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "/Users/kushal/Documents/covtpx/src/rhelp.h",
+        "file_last_write" : 1452062509
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "/Users/kushal/Documents/covtpx/src/topics.c",
+                "kind" : 6,
+                "line" : 11,
+                "name" : "wllhd(int, double *, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@wllhd"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/topics.c",
+                "kind" : 6,
+                "line" : 18,
+                "name" : "wrdprob(double *, int, int, int *, double **, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@wrdprob"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/topics.c",
+                "kind" : 6,
+                "line" : 26,
+                "name" : "wgrad(double *, int, int, int *, double *, double *, double **, double *, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@wgrad"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/topics.c",
+                "kind" : 6,
+                "line" : 35,
+                "name" : "wneghess_lowtri(double *, int, int, int *, double *, double *, double **, double *, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@wneghess_lowtri"
+            },
+            {
+                "column" : 5,
+                "file" : "/Users/kushal/Documents/covtpx/src/topics.c",
+                "kind" : 6,
+                "line" : 48,
+                "name" : "wactivate(int, double *, int *)",
+                "parent_name" : "",
+                "usr" : "c:@F@wactivate"
+            },
+            {
+                "column" : 5,
+                "file" : "/Users/kushal/Documents/covtpx/src/topics.c",
+                "kind" : 6,
+                "line" : 65,
+                "name" : "wupdate(int, double *, double *, int *)",
+                "parent_name" : "",
+                "usr" : "c:@F@wupdate"
+            },
+            {
+                "column" : 5,
+                "file" : "/Users/kushal/Documents/covtpx/src/topics.c",
+                "kind" : 6,
+                "line" : 90,
+                "name" : "sqpw(int, int, int, int *, double *, double **, double *, int, double, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@sqpw"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/topics.c",
+                "kind" : 6,
+                "line" : 186,
+                "name" : "Romega(int *, int *, int *, int *, int *, double *, double *, double *, int *, double *, int *, int *)",
+                "parent_name" : "",
+                "usr" : "c:@F@Romega"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/topics.c",
+                "kind" : 6,
+                "line" : 207,
+                "name" : "RmixQ(int *, int *, int *, int *, int *, double *, int *, int *, int *, double *, double *, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@RmixQ"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/topics.c",
+                "kind" : 6,
+                "line" : 229,
+                "name" : "RcalcQ(int *, int *, int *, int *, int *, int *, double *, double *, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@RcalcQ"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/topics.c",
+                "kind" : 6,
+                "line" : 244,
+                "name" : "RcalcTau(int *, int *, int *, double *, double *, double *, double *, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@RcalcTau"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/topics.c",
+                "kind" : 6,
+                "line" : 268,
+                "name" : "RnegHW(int *, int *, int *, double *, double *, int *, int *, double *, double *, int *, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@RnegHW"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/topics.c",
+                "kind" : 6,
+                "line" : 299,
+                "name" : "Rlogit(int *, double *, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@Rlogit"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/topics.c",
+                "kind" : 6,
+                "line" : 304,
+                "name" : "Rexpit(int *, double *, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@Rexpit"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/topics.c",
+                "kind" : 6,
+                "line" : 312,
+                "name" : "RtoNEF(int *, int *, int *, double *, double *, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@RtoNEF"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/topics.c",
+                "kind" : 6,
+                "line" : 322,
+                "name" : "RfromNEF(int *, int *, int *, double *, double *, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@RfromNEF"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/kushal/Documents/covtpx/src/topics.c",
+                "kind" : 6,
+                "line" : 332,
+                "name" : "Rzhat(int *, int *, int *, int *, double *, int *, int *, double *, double *)",
+                "parent_name" : "",
+                "usr" : "c:@F@Rzhat"
+            }
+        ],
+        "file" : "/Users/kushal/Documents/covtpx/src/topics.c",
+        "file_last_write" : 1452062509
+    }
+]

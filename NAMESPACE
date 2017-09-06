@@ -1,0 +1,18 @@
+useDynLib(covtpx)
+import(slam)
+import(SQUAREM)
+import(boot)
+import(Matrix)
+import(gamlr)
+import(methods)
+import(parallel)
+import(distrom)
+importFrom("gtools", "rdirichlet", "ddirichlet")
+importFrom("stats", "coef", "quantile")
+
+
+export(stm_tfidf,
+       normalizetpx,
+       rdir,
+       topics,
+       update_theta)

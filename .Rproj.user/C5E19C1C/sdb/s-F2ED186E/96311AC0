@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "useDynLib(covtpx)\nimport(slam)\nimport(SQUAREM)\nimport(boot)\nimport(Matrix)\nimport(gamlr)\nimport(methods)\nimport(parallel)\nimport(distrom)\nimportFrom(\"gtools\", \"rdirichlet\", \"ddirichlet\")\nimportFrom(\"stats\", \"coef\", \"quantile\")\n\n\nexport(stm_tfidf,\n       normalizetpx,\n       rdir,\n       topics,\n       update_theta)",
+    "created" : 1504633353679.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "21446370",
+    "id" : "96311AC0",
+    "lastKnownWriteTime" : 1504657166,
+    "last_content_update" : 1504657166547,
+    "path" : "~/Documents/covtpx/NAMESPACE",
+    "project_path" : "NAMESPACE",
+    "properties" : {
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_namespace"
+}

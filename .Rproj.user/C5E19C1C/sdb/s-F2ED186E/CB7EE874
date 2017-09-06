@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "\n\n##########  test covtpx   #####################\n\n\n#######  we use an ecological data to test covtpx package   ###############\n\n#install_github(\"kkdey/ecostructure\")\n\nlibrary(ecostructure)\n\ndata <- get(load(system.file(\"extdata\", \"HimalayanBirdsData.rda\",\n                             package = \"ecostructure\")))\n\ntaxonomic_counts <- t(exprs(data))\ngrid_metadata <- pData(phenoData(data))\nhead(grid_metadata)\n\nshape=NULL\ninitopics=NULL\ntol=0.1\nbf=FALSE\nkill=2\nord=TRUE\nverb=1\nadmix=TRUE\nnbundles=1\nuse_squarem=FALSE\ninit.adapt=FALSE\ntype=\"full\"\nind_model_indices = NULL\nsignatures=NULL\nlight=1\nmethod_admix=1\nsample_init=TRUE\ntmax=10000\n\nwtol=10^(-4)\nqn=100\ngrp=NULL\nnonzero=FALSE\ndcut=-10\ntop_genes=100\nburn_in=5\n\ncounts <- taxonomic_counts\nK <- 3\n\ntheta <- initopics\n",
+    "created" : 1504630531688.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2587666905",
+    "id" : "CB7EE874",
+    "lastKnownWriteTime" : 1504634162,
+    "last_content_update" : 1504634162713,
+    "path" : "~/Documents/covtpx/vignettes/test_covtpx.R",
+    "project_path" : "vignettes/test_covtpx.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
