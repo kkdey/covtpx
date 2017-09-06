@@ -1,11 +1,12 @@
 Package: covtpx
-Title:  Estimation of Topic Models with sample covariate metadata
+Title: Estimation of Topic Models with sample covariate metadata
 Version: 0.99.1
 Author: Kushal K Dey <kkdey@uchicago.edu>
 Depends: R (>= 2.10)
 Imports: slam, SQUAREM, boot
 Suggests: MASS
-Description:  Posterior maximization for topic models Grade of Membership models using an EM algorithm approach, that adjusts the clustering results for the sample covariate metadata. This accounts for batch effects in the application of the GoM model in analyzing the RNA-seq data and also accounts for habitat metadata in ecostructure modeling of species distributions.
+Description: Posterior maximization for topic models Grade of Membership models using an EM algorithm approach, that adjusts the clustering results for the sample covariate metadata. This accounts for batch effects in the application of the GoM model in analyzing the RNA-seq data and also accounts for habitat metadata in ecostructure modeling of species distributions.
 Maintainer: Kushal K Dey <kkdey@uchicago.edu>
 License: GPL-3
 URL: https://kkdey.github.io
+RoxygenNote: 6.0.1
