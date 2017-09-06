@@ -15,4 +15,4 @@ export(stm_tfidf,
        normalizetpx,
        rdir,
        topics,
-       update_theta)
+       update_params)
