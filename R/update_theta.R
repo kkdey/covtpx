@@ -30,7 +30,7 @@ update_theta <- function(counts, omega, theta, metadata){
     metadata2 <- do.call(rbind, replicate(3, metadata, simplify=FALSE))
     
     library_size <- c(replicate(K, rowSums(counts)))
-    tmp1 <- c(omega_2)
+    tmp1 <- c(omega)
     tmp2 <- sweep(theta, 1, tmp1, "*")
     
     tmp3 <- tmp2
@@ -76,23 +76,11 @@ update_theta <- function(counts, omega, theta, metadata){
     new_theta <- fitted_val_2
     
     ll <- list("new_theta" =  new_theta,
-               "distrom_model" = fits,
                "coefficients" = coef_fitted)
     
     return(ll)
 }
 
 
-# library(ecostructure)
-# data <- get(load(system.file("extdata", "HimalayanBirdsData.rda", package = "ecostructure")))
-# nsamples <- 38
-# K <- 3
-# num_covars <- 2
-# G <- 304
-# omega <- gtools::rdirichlet(nsamples, alpha = rep(1/K, K))
-# theta <- gtools::rdirichlet(nsamples*K, alpha = rep(1/(K*G), G))
-# metadata <- matrix(sample(1:100, nsamples*num_covars, replace=TRUE), nsamples, num_covars)
-# library(distrom)
-# out <- update_theta(counts, omega, theta, metadata)
-# 
+
 
