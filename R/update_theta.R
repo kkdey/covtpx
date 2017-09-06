@@ -68,10 +68,10 @@ update_theta <- function(counts, omega, theta, metadata){
     fits <- distrom::dmr(cl, metadata3, latent_counts, verb=1)
     stopCluster(cl)
     
-    coef_fitted <- coef(fits)
+    coef_fitted <- as.matrix(coef(fits))
     metadata4 <- cbind(rep(1, dim(counts_repped)[1]), metadata3)
     
-    fitted_val <- exp(metadata4 %*% coef_fitted)
+    fitted_val <- exp(as.matrix(metadata4) %*% coef_fitted)
     fitted_val_2 <- t(apply(fitted_val, 1, function(x) return(x/sum(x))))
     new_theta <- fitted_val_2
     
